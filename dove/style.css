@@ -1,0 +1,59 @@
+.dove_bar{
+    position: absolute;
+    z-index: 0;
+    right: 146px;
+    bottom: 5%;
+}
+.dove_bar img{ 
+    width:350px;
+    transition:2s ease-in-out; 
+    transform: translateY(0); 
+    animation: bar 2.5s linear 0.1s infinite forwards;
+}
+        @keyframes bar {
+            0% {
+                    transform: translateY(0)
+                    }
+                    50% {
+                    transform: translateY(20px);
+                    }
+                    75% {
+                    }
+                    100% {
+                    transform: translateY(0);
+                    }
+                }
+
+.content.dove span{
+    position: absolute;
+    z-index:3;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform:translate(-50%, -50%);
+    box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.082) inset,
+                0 -10px 25px #edf1fa3d inset,
+                0 2px 2px #ddeaf13a inset,
+                2px 0 5px rgba(255, 255, 255, 0.103) inset,
+                -2px 0 5px rgba(255, 255, 255, 0.116) inset,
+                0 5px 25px rgba(255, 255, 255, 0.055) inset;
+    animation:animate 5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity:1
+    }
+    100%{
+        transform: translate(-50%, -1000%);
+        opacity:1
+    }
+}
+
+canvas{
+    margin-top:12%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

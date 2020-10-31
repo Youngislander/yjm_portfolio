@@ -1,0 +1,188 @@
+@media screen and (max-width: 1440px) {
+    .intro,
+    .content{
+        width:100%
+    }
+    .dove canvas{
+        margin-top:0;
+        top: 28%;
+        left: 0;
+    }
+    /* 스크롤 안생기게 */
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1200px) {
+    .content_left {
+        padding-top: 80px;
+        box-sizing: border-box;
+    }
+    .dove .content_intro,.one_m .content_intro{
+        position: unset;
+        z-index: 1;
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content .dove_bar{
+        margin-bottom:-1%
+    }
+    .content .dove_bar img{
+        width: 280px;
+    }
+    .dove .content_intro ul,.one_m .content_intro ul{
+        margin-left:0;
+    }
+    .dove canvas{
+        margin-top:0;
+        top: 30%;
+        left: 0;
+    }
+    .dove .content_right,.one_m .content_right{
+        width:100%;
+        margin-right: 0;
+        margin-top:0
+    }
+    .dove .content_right .content_right_box
+    ,.one_m .content_right .content_right_box
+    {
+        margin: 0 auto
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    .content .dove_bar img{
+        visibility: hidden;
+    }
+    .dove .content_right .content_right_box
+    ,.one_m .content_right .content_right_box{
+        width: 80vw;
+        height: 40vw;
+    }
+    .intro_box_wrap{
+        width: 350px;
+        margin: 80px auto;
+        position: sticky;
+        top: 80%;
+        left: 12%;
+    }
+    .main .intro strong{
+    font-size: 13vw;
+    position: sticky;
+    top: 55px;
+    left: 0;
+    padding-top: 38px;
+    padding-bottom: 100px;
+}
+}
+
+
+
+.content{
+    width: 100%;
+    height:100vh;
+    position:relative;
+    overflow: hidden;
+    background: rgb(2 39 95);
+}
+
+.content_left{
+}
+
+.content_intro p{
+    color:white;
+    margin-top: 20px;
+}
+.content_right{
+    float:right;
+    margin-right: 220px;
+    box-sizing: border-box;
+    margin-top: 230px;
+}
+.content_right .content_right_box{
+    width: 600px;
+    height: 302px;
+    border-radius: 10px;
+    box-shadow:28px 35px 45px rgb(4 23 50);
+    background-image: url(../dove_web.png);
+    background-size: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.content_intro{
+ position: absolute;
+    left: 199px;
+    top: 50%;
+    margin-top: -160px;
+    z-index:1;
+}
+.content_intro strong{
+    display:inline-block;
+    font-size:40px;
+    color:#fff
+}
+.content_intro ul{
+    margin-top: 20px;
+    padding:15px;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin-left: -22px;
+}
+.content_intro ul li{
+    background: #fff;
+    float:left;
+    margin-left: 15px;
+    padding:15px;
+    border-radius: 50%;
+    box-shadow: 5px 3px 16px rgb(4 30 69 / 59%);
+}
+.content_intro ul li div{
+    width: 46px;
+    height: 46px;
+}
+.content_intro ul li:first-child{
+    margin-left: 0;
+}
+.content_intro ul li:first-child div{
+    background-image: url(../html.svg);
+    background-size: 45px 49px;
+    background-repeat: no-repeat;
+}
+.content_intro ul li:nth-child(2) div{
+    background-image: url(../css.svg);
+    background-size: 47px 47px;
+    background-repeat: no-repeat;
+}
+.content_intro ul li:nth-child(3) div{
+    background-image: url(../js.svg);
+    background-size: 48px 46px;;
+    background-repeat: no-repeat;
+}
+.content_intro ul li:nth-child(4) div{
+    background-image: url(../jquery.png);
+    background-size: 71%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content_btn{
+    margin-top: 20px;
+
+}
+.content_btn a{
+    border-radius:20px;
+    background: white;
+    color:rgb(2 39 95);
+    padding: 6px 20px;
+    box-sizing:border-box;
+    box-shadow: 5px 3px 16px rgb(4 30 69 / 59%);
+    font-weight:600;
+    margin-left:-10px;
+    cursor:grab
+}
+.content_btn a:hover{
+    background: black;
+    color:white;
+}

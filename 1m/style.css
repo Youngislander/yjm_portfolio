@@ -1,0 +1,41 @@
+
+
+.content.one_m {
+    background: #f1f1f1;
+}
+
+.one_m .content_intro p{
+    color:black;
+}
+
+.one_m .content_intro strong{
+    color:black;
+}
+
+.one_m .content_right .content_right_box{
+        box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
+}
+
+.one_m .content_intro ul li{
+    box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
+}
+
+.one_m .content_intro a{
+    box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
+    color:black;
+}
+
+.one_m .content_btn a:hover{
+    color:white;
+}
+
+.one_m .scroll_i{
+    color:black;
+}
+
+.one_m .content_right .content_right_box{
+    background: url(../1m_web.png);
+    background-size: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
