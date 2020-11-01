@@ -237,7 +237,7 @@
         width: 81vw;
     }
     .one_m .content_right .content_right_box img{
-        width: 70vw;
+        width: 75vw;
     }
     .kodak .content_right .content_right_box img{
         width: 71vw;
@@ -416,7 +416,8 @@
 .send_box a{
     margin-top: 30px;
     float:right; font-weight: 700; padding:10px 50px; box-sizing:border-box; border:2px solid #000000; background: #ffffff; }
-.send_box a:hover{
+}
+    .send_box a:hover{
     color:white;
     background: #000;
 }
