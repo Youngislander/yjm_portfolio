@@ -175,6 +175,12 @@
 
 /* 모바일 */
 @media screen and (max-width: 800px) {
+    .dove.content .content_intro ul li:first-child {
+        margin-left: 17px;
+    }
+    .dove.content_intro ul li:first-child {
+        margin-left: 17px;
+    }
     .portf_tool ul li{
         display:none;
     }
@@ -228,7 +234,7 @@
 
     
     .dove .content_right .content_right_box img {
-        width: 60vw;
+        width: 81vw;
     }
     .one_m .content_right .content_right_box img{
         width: 70vw;
@@ -260,7 +266,7 @@
     left: 0;
     padding-top: 38px;
     padding-bottom: 100px;
-}
+
 
 }
 
@@ -340,7 +346,7 @@
     background-repeat: no-repeat;
 }
 .content_intro ul li:nth-child(4) div{
-    background-image: url(./jquery.png);
+    background-image: url(./jquery.svg);
     background-size: 71%;
     background-repeat: no-repeat;
     background-position: center;
@@ -358,7 +364,7 @@
     box-sizing:border-box;
     box-shadow: 5px 3px 16px rgb(4 30 69 / 59%);
     font-weight:600;
-    margin-left:-10px;
+    margin-left:10px;
     cursor:grab
 }
 .content_btn a:hover{
