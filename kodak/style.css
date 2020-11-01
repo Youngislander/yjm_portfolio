@@ -1,0 +1,66 @@
+
+
+    
+    
+    
+    .content.kodak {
+        background: #000000;
+        position:relative;
+        height:200vh;
+        overflow:unset
+    }
+
+    .kodak .content_intro p{
+        color:white;
+    }
+    
+    .kodak .content_intro strong{
+        color:white;
+    }
+    
+
+    
+    
+    .kodak .content_intro ul li{
+        box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
+    }
+    
+    .kodak .content_intro a{
+        box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
+        color:black;
+    }
+    
+    .kodak .content_btn a:hover{
+        background:rgb(241 185 53);
+        color: white;
+    }
+    
+    .kodak .scroll_i{
+        color:white;
+    }
+    
+    
+    
+    .img_wrap{
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        height: 200vh;
+    }
+    
+    .photo{
+        width:108px;
+        top: 0;
+        left: 115px;
+        position: absolute;
+    }
+    .photo2{ 
+        position: absolute;
+        height: 100px;
+        top:-3200;
+        left:1200px;
+        transform-origin: left top;
+        transform:rotate(60deg)
+        }
+
+

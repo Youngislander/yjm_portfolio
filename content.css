@@ -1,36 +1,137 @@
+.dove .content_right .content_right_box img,
+.one_m .content_right .content_right_box img{
+ width: 40vw;
+}
+@media screen and (min-width: 1440px){
+    .content_intro ul{
+        margin-left: -19px;
+
+    }
+    .kodak .content_left{
+        position: sticky;
+        top: 14%;
+        left: 17%;
+        z-index: 0;
+        height: 275px;
+        width: 400px;
+        padding-bottom: 310px;
+        opacity: 0;
+        padding-top: 200px;
+    }
+    .kodak .content_intro {
+     width: 400px;
+     margin: 0 auto;
+     position: unset;
+    }
+    .kodak .content_right{
+     position: sticky;
+     top: 18%;
+     left: 70%;
+     z-index: 0;
+     width: 18%;
+     padding-bottom: 234px;
+     margin-top: -200px;
+    }
+    .kodak .content_right .content_right_box img {
+        width: 18vw;
+       }
+
+}
+
 @media screen and (max-width: 1440px) {
     .intro,
     .content{
         width:100%
+    }
+    .content_intro ul{
+        margin-left: -19px;
     }
     .dove canvas{
         margin-top:0;
         top: 28%;
         left: 0;
     }
+    .kodak .content_intro {
+        position: absolute;
+        z-index: 2;
+        width: 400px;
+        margin: 0 auto;
+        top: 138%;
+        margin-left: -206px;
+        left: 36%;
+    
+       }
+       .kodak .content_left{
+        position: sticky;
+        top: 19%;
+        left: 101px;
+        z-index: 0;
+        
+       }
+       .kodak .content_right{
+        position: sticky;
+        top: 18%;
+        left: 70%;
+        z-index: 0;
+        width: 18%;
+        margin-bottom: 105px;
+    }
+       .dove .content_right .content_right_box img,
+       .one_m .content_right .content_right_box img{
+        width: 40vw;
+    }
+    .kodak .content_right .content_right_box img {
+        width: 18vw;
+    }
     /* 스크롤 안생기게 */
 }
 
 /* 테블릿 */
 @media screen and (max-width: 1200px) {
+    .content_intro ul{
+        margin-left: -19px;
+    }
     .content_left {
         padding-top: 80px;
         box-sizing: border-box;
     }
     .dove .content_intro,.one_m .content_intro{
-        position: unset;
-        z-index: 1;
+        position: absolute;
+        z-index: 2;
         width: 400px;
         margin: 0 auto;
         text-align: center;
+        top: 83px;
+        left: 50%;
+        margin-left: -206px;
     }
+   .kodak .content_intro {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    margin: 0 auto;
+    top: 138%;
+    margin-left: -206px;
+    left: 36%;
+
+   }
+   .kodak .content_left{
+    position: sticky;
+    top: 19%;
+    left: 101px;
+    z-index: 0;
+   }
+
     .content .dove_bar{
         margin-bottom:-1%
     }
     .content .dove_bar img{
         width: 280px;
     }
-    .dove .content_intro ul,.one_m .content_intro ul{
+    
+    .dove .content_intro ul,.one_m .content_intro ul
+    .kodak .content_intro ul
+    {
         margin-left:0;
     }
     .dove canvas{
@@ -38,27 +139,109 @@
         top: 30%;
         left: 0;
     }
-    .dove .content_right,.one_m .content_right{
-        width:100%;
-        margin-right: 0;
-        margin-top:0
+    .one_m .content_right{
+        position: absolute;
+        right: 17%;
+    }
+    .dove .content_right{
+        position: absolute;
+        bottom: 82px;
+        right: 26%;
+    }
+    .kodak .content_right{
+        position: sticky;
+        top: 18%;
+        left: 70%;
+        z-index: 0;
+        width: 18%;
+        margin-top: 225px;
     }
     .dove .content_right .content_right_box
     ,.one_m .content_right .content_right_box
+    ,.kodak .content_right .content_right_box
     {
         margin: 0 auto
+    }
+    .dove .content_right .content_right_box img {
+        width: 50vw;
+    }
+    .one_m .content_right .content_right_box img{
+        width: 46vw;
+    }
+    .kodak .content_right .content_right_box img{
+        width: 26vw;
     }
 }
 
 /* 모바일 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+    .content_intro ul{
+    margin-left: 8px;
+    }
     .content .dove_bar img{
         visibility: hidden;
     }
+    .kodak .content_intro{
+        position: absolute;
+        z-index: 2;
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        top: -17px;
+        left: 50%;
+        margin-left: -193px;
+        padding-top: 99px;
+    }
+    .dove .content_right
+    {
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        margin-right: 156px;
+    }
+    .one_m .content_right{
+        position: absolute;
+        bottom: 54%;
+        right: 58%;
+        /* margin-bottom: -17px; */
+        margin-right: 156px;
+    }
+
+    .kodak .content_right{
+        position: sticky;
+        top: 93%;
+        left: 13%;
+        z-index: 0;
+        width: 18%;
+        margin-bottom: 105px;
+    }
+
     .dove .content_right .content_right_box
-    ,.one_m .content_right .content_right_box{
-        width: 80vw;
-        height: 40vw;
+    ,.one_m .content_right .content_right_box
+    ,.kodak .content_right .content_right_box{
+        position: absolute;
+
+    }
+
+    
+    .dove .content_right .content_right_box img {
+        width: 60vw;
+    }
+    .one_m .content_right .content_right_box img{
+        width: 70vw;
+    }
+    .kodak .content_right .content_right_box img{
+        width: 71vw;
+        margin-top: -120px;
+    }
+    .kodak .content_right .content_right_box img:hover{
+        margin-top: -300px;
+    }
+    .kodak .content_left{
+        z-index:2;
+        opacity:1;
+        padding-top:100px;
+        margin-bottom: 600px;
     }
     .intro_box_wrap{
         width: 350px;
@@ -75,6 +258,7 @@
     padding-top: 38px;
     padding-bottom: 100px;
 }
+
 }
 
 
@@ -95,20 +279,13 @@
     margin-top: 20px;
 }
 .content_right{
-    float:right;
-    margin-right: 220px;
-    box-sizing: border-box;
-    margin-top: 230px;
+    position: absolute;
+    bottom: 85px;
+    right: 95px;
+    z-index:0
 }
 .content_right .content_right_box{
-    width: 600px;
-    height: 302px;
-    border-radius: 10px;
-    box-shadow:28px 35px 45px rgb(4 23 50);
-    background-image: url(../dove_web.png);
-    background-size: 100%;
-    background-position:center;
-    background-repeat:no-repeat;
+
 }
 
 .content_intro{
@@ -128,7 +305,6 @@
     padding:15px;
     box-sizing:border-box;
     overflow:hidden;
-    margin-left: -22px;
 }
 .content_intro ul li{
     background: #fff;
@@ -185,4 +361,53 @@
 .content_btn a:hover{
     background: black;
     color:white;
+}
+
+
+
+
+.contact{
+    padding:200px 60px;
+    box-sizing:border-box
+}
+.contact_wrap strong{
+    font-size:40px
+}
+.form_box{
+    margin-bottom: 10px;
+}
+
+.send_box .form_box input{display:block; margin-bottom:20px; background: rgb(240, 240, 240); border:none;padding:10px; box-sizing:border-box;}
+.send_box .form_box input::placeholder{color: #cccccc}
+.send_box .form_box input:first-child{width: 40vw; height: 50px; font-size:16px}
+.send_box .form_box input:nth-child(2){width: 50vw; height: 50px; font-size:16px}
+.send_box .form_box textarea{width: 100%; height: 173px;font-size:16px; padding:10px}
+.send_box .form_box textarea::placeholder{color:#cccccc; font-size:16px;}
+.agree{overflow:hidden}
+
+.agree label .label_img{
+    padding-left: 30px;
+    height:20px;
+    background: url(grey_fill.png) no-repeat;
+    background-size: 20px 20px;
+    position:relative;
+    float:left;
+}    
+.agree.on label .label_img{
+    padding-left: 30px;
+    height:20px;
+    background-size: 20px 20px;
+    background-image: url(label_check.png);
+    position:relative
+}
+.agree input{position: absolute; top:0; left:0; visibility: hidden;}
+
+.send_box span{display:block; font-size:14px; color:#a0a0a0;}
+
+.send_box a{
+    margin-top: 30px;
+    float:right; font-weight: 700; padding:10px 50px; box-sizing:border-box; border:2px solid #000000; background: #ffffff; }
+.send_box a:hover{
+    color:white;
+    background: #000;
 }

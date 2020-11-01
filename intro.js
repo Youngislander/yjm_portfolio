@@ -149,3 +149,44 @@ var icon_scene4 = new ScrollMagic.Scene({
 .setTween(icon4)
 .addTo(controller)
 
+
+
+
+
+var tween5_1 = TweenMax.to('.photo', 0.5, {
+    top:-1000,
+    });
+var tween5_2 = TweenMax.to('.photo2', 0.5, {
+    rotation:60,
+    left:-700,
+    top:-2000,
+    });
+ var tween5_3 = TweenMax.to('.kodak .content_left', 0.5, {
+     opacity:1
+     });
+// var tween5_4 = TweenMax.to('.kodak .content_left', 0.5, {
+//     y:-800,
+//     });
+
+var long_img = new ScrollMagic.Scene({
+    triggerElement:".content.kodak",
+    offset: 50,
+    duration: 2000
+    }).setTween(tween5_1).addTo(controller);
+
+var long_img = new ScrollMagic.Scene({
+triggerElement:".content.kodak",
+offset: 200,
+duration: 2000
+}).setTween(tween5_2).addTo(controller);
+
+
+var kodak_intro = new ScrollMagic.Scene({
+     triggerElement:".kodak .content_right",
+     offset: 50
+     }).setTween(tween5_3).addTo(controller);
+
+// var kodak_intro2 = new ScrollMagic.Scene({
+//     triggerElement:".content.kodak",
+//     offset: 1300
+//     }).setTween(tween5_4).addTo(controller);

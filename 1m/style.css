@@ -13,7 +13,6 @@
 }
 
 .one_m .content_right .content_right_box{
-        box-shadow:8px 8px 17px rgb(165 165 165 / 20%);
 }
 
 .one_m .content_intro ul li{
@@ -31,11 +30,4 @@
 
 .one_m .scroll_i{
     color:black;
-}
-
-.one_m .content_right .content_right_box{
-    background: url(../1m_web.png);
-    background-size: 100%;
-    background-position:center;
-    background-repeat:no-repeat;
 }
