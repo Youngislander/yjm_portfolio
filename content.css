@@ -42,6 +42,7 @@
     .intro,
     .content{
         width:100%
+        
     }
     .content_intro ul{
         margin-left: -19px;
@@ -267,7 +268,7 @@
     padding-top: 38px;
     padding-bottom: 100px;
 
-
+    }
 }
 
 
