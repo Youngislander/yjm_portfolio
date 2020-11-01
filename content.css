@@ -175,6 +175,9 @@
 
 /* 모바일 */
 @media screen and (max-width: 800px) {
+    .portf_tool ul li{
+        display:none;
+    }
     .content_intro ul{
     margin-left: 8px;
     }
@@ -322,22 +325,22 @@
     margin-left: 0;
 }
 .content_intro ul li:first-child div{
-    background-image: url(../html.svg);
+    background-image: url(./html.svg);
     background-size: 45px 49px;
     background-repeat: no-repeat;
 }
 .content_intro ul li:nth-child(2) div{
-    background-image: url(../css.svg);
+    background-image: url(./css.svg);
     background-size: 47px 47px;
     background-repeat: no-repeat;
 }
 .content_intro ul li:nth-child(3) div{
-    background-image: url(../js.svg);
+    background-image: url(./js.svg);
     background-size: 48px 46px;;
     background-repeat: no-repeat;
 }
 .content_intro ul li:nth-child(4) div{
-    background-image: url(../jquery.png);
+    background-image: url(./jquery.png);
     background-size: 71%;
     background-repeat: no-repeat;
     background-position: center;
